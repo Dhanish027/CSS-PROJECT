@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Dave Gray" />
+    <meta name="description" content="Contact little taco shop" />
+    <title>Contact Taco Shop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__h1">Contact little Taco Shop</h1>
+      <nav class="header__nav">
+        <ul class="header__ul">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="/#menu">Menu</a></li>
+          <li><a href="hours.html">Store Hours</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <figure>
+        <img
+          src="pic1.avif"
+          alt="Tacos Delicioso"
+          title="Tacos Delicioso!!"
+          width="1000"
+          height="600"
+        />
+      </figure>
+    </section>
+    <main class="main">
+      <article class="main__article contact">
+        <form class="contact_form">
+          <h1 class="contact__h1"><i>OUR CONTACT FORM</i></h1>
+
+          <fieldset class="contact__fieldset">
+            <legend class="offscreen">Send us a Message</legend>
+
+            <p class="contact__p">
+              <label class="contact__label" for="name">Name:</label>
+              <input
+                class="contact__input"
+                type="text"
+                placeholder="Your Name"
+                required
+              />
+            </p>
+
+            <p class="contact__p">
+              <label class="contact__label" for="email">Email:</label>
+              <input
+                class="contact__input"
+                type="email"
+                placeholder="Your Email"
+                required
+              />
+            </p>
+
+            <p class="contact__p">
+              <label class="contact__label" for="mess">Message:</label><br />
+              <textarea
+                class="contact__textarea"
+                name="mess"
+                id="mness"
+                cols="30"
+                cols="30"
+                rows="10"
+                placeholder="plase ur message."
+              >
+              </textarea>
+            </p>
+          </fieldset>
+
+          <button class="contact__button" type="submit">Submit</button>
+          <button class="contact__button" type="submit">Reset</button>
+        </form>
+      </article>
+      <hr />
+      <article class="main__article">
+        <h1>
+          <b><i>OUR LOCATION</i></b>
+        </h1>
+        <address>
+          <pre>          
+555 Taco Temptation Lane, Suite T
+kanasa city, MO 5555-5555 
+Phone:<u>555-555-5555</u></pre>
+        </address>
+      </article>
+      <hr />
+      <footer class="footer">
+        <p>
+          <span class="nowrap">Copyright &copy; </span>
+          <span class="nowrap">Little Taco Shop.</span>
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>
